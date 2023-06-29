@@ -9,10 +9,10 @@
 		<version>3.1.1</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.system.address</groupId>
-	<artifactId>api-system-address</artifactId>
+	<groupId>com.system.currencyexchange</groupId>
+	<artifactId>api-currency-exchange-microservice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>SystemAddressApi</name>
+	<name>CurrencyExchangeApi</name>
 	<description>This is an spring project to fetch the address</description>
 	<properties>
 		<java.version>17</java.version>
@@ -51,5 +51,19 @@
 			</plugin>
 		</plugins>
 	</build>
+	<distributionManagement>
+		<repository>
+		<id>api-currency-exchange-microservice</id>
+		<url>
+			https://pkgs.dev.azure.com/ju2005subrata/api-currency-exchange-microservice/_packaging/api-currency-exchange-microservice/maven/v1</url>
+		<releases>
+			<enabled>true</enabled>
+		</releases>
+		<snapshots>
+			<enabled>true</enabled>
+		</snapshots>
+	</repository>
+	</distributionManagement>
+	
 
 </project>
