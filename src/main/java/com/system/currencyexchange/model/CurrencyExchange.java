@@ -37,6 +37,7 @@ public class CurrencyExchange {
 	@Column(name = "to_currency")
 	private String to;
 	private BigDecimal exchangeRate;
+	private String enviornment;
 	@Id
 	private Long id;
 
